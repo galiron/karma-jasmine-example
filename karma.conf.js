@@ -20,6 +20,7 @@ module.exports = function(config) {
             include: [
                 "./node_modules/brolog/**/*"
                 ]
-        }
+        },
+        logLevel: config.LOG_DEBUG
     });
 };
